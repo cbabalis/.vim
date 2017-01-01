@@ -74,6 +74,11 @@ set et
 set tabstop=4
 set shiftwidth=4
 set expandtab
+" blaxeep here
+set noexpandtab
+retab!
+set expandtab
+retab!
 
 set nrformats-=octal
 set shiftround
